@@ -1,0 +1,268 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-18T07:30:54.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3241162100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.StepDef.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify Amazon and Flipkart links and their search results",
+        "description": "",
+        "id": "validate-search-results-for--best-washing-machine--on-google;verify-amazon-and-flipkart-links-and-their-search-results;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.StepDef.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1807464400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Google homepage",
+            "match": {
+              "location": "StepDefinition.StepDef.User_is_on_the_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1460549700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searches for \"Best Washing Machine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Best Washing Machine\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.StepDef.user_open_the_browser_and_enters_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1200799100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search results are displayed",
+            "match": {
+              "location": "StepDefinition.StepDef.Search_results_are_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 284913600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validates the number of Amazon and Flipkart links",
+            "match": {
+              "location": "StepDefinition.StepDef.User_validates_the_number_of_Amazon_and_Flipkart_links()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5458103700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Amazon\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.StepDef.User_clicks_on_website_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 985200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Title is displayed",
+            "match": {
+              "location": "StepDefinition.StepDef.Title_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Number of results is greater than 0",
+            "match": {
+              "location": "StepDefinition.StepDef.Number_of_results_is_greater_than_0()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-18T07:31:08.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1619544400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.StepDef.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify Amazon and Flipkart links and their search results",
+        "description": "",
+        "id": "validate-search-results-for--best-washing-machine--on-google;verify-amazon-and-flipkart-links-and-their-search-results;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.StepDef.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3890023900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Google homepage",
+            "match": {
+              "location": "StepDefinition.StepDef.User_is_on_the_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1420459300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searches for \"Best Washing Machine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Best Washing Machine\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.StepDef.user_open_the_browser_and_enters_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1288403000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search results are displayed",
+            "match": {
+              "location": "StepDefinition.StepDef.Search_results_are_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169941000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validates the number of Amazon and Flipkart links",
+            "match": {
+              "location": "StepDefinition.StepDef.User_validates_the_number_of_Amazon_and_Flipkart_links()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6451858200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Flipkart\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flipkart\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.StepDef.User_clicks_on_website_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Title is displayed",
+            "match": {
+              "location": "StepDefinition.StepDef.Title_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Number of results is greater than 0",
+            "match": {
+              "location": "StepDefinition.StepDef.Number_of_results_is_greater_than_0()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate search results for \u0027Best Washing Machine\u0027 on Google",
+    "description": "",
+    "id": "validate-search-results-for--best-washing-machine--on-google",
+    "keyword": "Feature",
+    "uri": "file:Features/Ecommerce.feature",
+    "tags": []
+  }
+]
